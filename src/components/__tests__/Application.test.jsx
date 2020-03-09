@@ -4,6 +4,6 @@ import Application from "../Application.jsx";
 
 afterEach(cleanup);
 
-it("renders without crashing", () => {
+it("renders without crashing", async () => {
 	render(<Application />);
 });
